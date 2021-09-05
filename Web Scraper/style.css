@@ -1,0 +1,55 @@
+body{
+    max-height:500px;
+    overflow:auto;
+    width:300px;
+  }
+
+  h1 {
+  text-align: center;
+  }
+
+  .heading{
+    display: flex;
+  }
+
+  section {
+    padding: 0px 25px;
+    font-weight: bold;
+  }
+
+  select{
+    width: 76px;
+    margin: 3px;
+    height: 27px;
+  }
+
+  input{
+    width:91px;
+    margin: 3px;
+    height: 22px;
+  }
+
+  .action-buttons {
+    text-align: center;
+  }
+
+  .new-command, .run-command {
+    text-align: center;
+    padding: 5px;
+    width: 40%;
+    cursor: pointer;
+    margin: 10px 14px;
+    border-radius: 5px;
+  }
+
+  .new-command:hover, .run-command:hover {
+    color: white;
+    background: black;
+    border: 0;
+  }
+
+  textarea {
+    width: 97%;
+    resize: none;
+    min-height: 60px;
+  }

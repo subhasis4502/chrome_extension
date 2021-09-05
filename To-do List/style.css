@@ -1,0 +1,60 @@
+body {
+  width: 170px;
+}
+
+body h1 {
+  text-align: center;
+}
+.todo-items,
+.todo-items li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-items li {
+  padding: 10px;
+  border-bottom: 2px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+.todo-items li:hover {
+  background: antiquewhite;
+  font-size: 13px;
+}
+
+.itemComplete,
+.itemDelete {
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.create-todo {
+  font-weight: bold;
+  background: white;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 18px;
+  cursor: pointer;
+}
+
+.todo-items li.done .item {
+  text-decoration: line-through;
+}
+
+.new-item {
+  display: none;
+}
+
+.new-item button {
+  cursor: pointer;
+  margin: 13px;
+  width: 57px;
+}
+
+.new-item button:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
